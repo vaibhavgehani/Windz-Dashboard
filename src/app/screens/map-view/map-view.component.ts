@@ -24,8 +24,8 @@ export class MapViewComponent implements OnInit {
   windDirection = '';
   worldWeather = 'https://api.worldweatheronline.com/premium/v1/weather.ashx';
   placeUrl = 'https://api.opencagedata.com/geocode/v1/json';
-  key = '6e4d17714dc94124b6e45321202811';
-  key0 = '4af4c374278f469aa370308766faaa6c';
+  key = 'c91b388ab9b04244ba380629211208';
+  key0 = '8518baaebe654ec99325404013e7f716';
   checkFlag = false;
   spinnerCheck = false;
   constructor(private route: Router,
